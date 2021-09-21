@@ -2,12 +2,12 @@ package ca.JavaIntro.Class_02;
 
 import java.math.BigDecimal;
 
-public class Arithmatic {
+public class Arithmetic {
     public static void main(String[] args) {
         int a = 5;
         int b = 2;
 
-        int c = a +b;
+        int c = a + b;
         double d = a / b;
         double e = 5.0 / 2;
         double f = (double)5 / 2;
