@@ -1,4 +1,4 @@
-package ca.JavaIntro.Class_02;
+package ca.ConcordiaCCE_Fall2021.Class_02;
 
 public class Variablepractice1 {
     public static void main(String[] args) {

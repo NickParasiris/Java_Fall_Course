@@ -1,4 +1,4 @@
-package ca.JavaIntro.Class_01;
+package ca.ConcordiaCCE_Fall2021.Class_01;
 
 public class First {
 

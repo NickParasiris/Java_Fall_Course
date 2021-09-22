@@ -1,4 +1,4 @@
-package ca.JavaIntro.Class_02;
+package ca.ConcordiaCCE_Fall2021.Class_02;
 
 import java.math.BigDecimal;
 
@@ -9,7 +9,7 @@ public class Arithmetic {
 
         int c = a + b;
         double d = a / b;
-        double e = 5.0 / 2;
+        double e = 5.0 / 2 *2;
         double f = (double)5 / 2;
 
         System.out.println(c);
@@ -32,6 +32,7 @@ public class Arithmetic {
         System.out.println(circleArea);
 
         BigDecimal costOfMeal = new BigDecimal("22.29");
+
 
 
 

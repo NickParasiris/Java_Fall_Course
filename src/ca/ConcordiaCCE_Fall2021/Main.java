@@ -1,4 +1,4 @@
-package ca.JavaIntro;
+package ca.ConcordiaCCE_Fall2021;
 
 public class Main {
 
