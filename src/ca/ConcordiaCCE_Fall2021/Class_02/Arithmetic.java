@@ -8,18 +8,18 @@ public class Arithmetic {
         int b = 2;
 
         int c = a + b;
-        double d = a / b;
+       // double d = a / b;
         double e = 5.0 / 2 *2;
         double f = (double)5 / 2;
 
         System.out.println(c);
-        System.out.println(d);
+        //System.out.println(d);
         System.out.println(e);
         System.out.println(f);
 
-        int x = 4;
-        long y = 22;
-        int z = x + (int)y;
+       // int x = 4;
+       // long y = 22;
+       // int z = x + (int)y;
 
         // Powers and Exponents
 
@@ -32,6 +32,7 @@ public class Arithmetic {
         System.out.println(circleArea);
 
         BigDecimal costOfMeal = new BigDecimal("22.29");
+        System.out.println(costOfMeal);
 
 
 

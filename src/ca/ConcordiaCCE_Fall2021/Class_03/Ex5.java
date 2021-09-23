@@ -6,8 +6,8 @@ public class Ex5 {
         float C1 = 30.00f;
         float F1 = 76.00f;
 
-        float c1_in_f = 0.0f;
-        float f1_in_c = 0.0f;
+        float c1_in_f;
+        float f1_in_c;
 
         c1_in_f = (9f / 5) * C1 + 32;
         f1_in_c = (F1 - 32f) / (9 / 5f);
