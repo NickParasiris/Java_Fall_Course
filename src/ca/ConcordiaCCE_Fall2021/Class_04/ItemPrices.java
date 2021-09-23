@@ -15,8 +15,9 @@ public class ItemPrices {
         double totalPrice;
         String formattedPrice;
         //Changed the taxes to a variable
-        double gst = .05;
-        double qst = .09975;
+        // made gst and qst final
+        final double gst = .05;
+        final double qst = .09975;
 
         System.out.println("Enter price of your purchase.");
         prices = taxCalculator.nextDouble();
