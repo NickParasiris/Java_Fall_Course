@@ -21,7 +21,7 @@ public class ternery_if {
 
         char employeeType = 'P';  // 'F'
 
-        //Bonus is 3000 for par time and 6000 for all others
+        //Bonus is 3000 for part-time and 6000 for all others
 
         double bonus = employeeType == 'P' ? 3000 : 6000;
 
