@@ -42,7 +42,7 @@ public class Menu_Example {
 
             if (response.equalsIgnoreCase("B"))
             {
-                while(true)
+                while (true)
                 {
                     System.out.println(mathMenuText);
                     System.out.println(Prompt);
