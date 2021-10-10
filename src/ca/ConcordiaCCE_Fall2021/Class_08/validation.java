@@ -13,7 +13,8 @@ public class validation {
         if (sc.hasNextInt())
         {
             number = sc.nextInt();
-        } else {
+        } else
+        {
             number = -1;
         }
         sc.nextLine();
