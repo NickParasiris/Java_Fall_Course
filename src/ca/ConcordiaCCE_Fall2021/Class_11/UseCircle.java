@@ -1,9 +1,14 @@
 package ca.ConcordiaCCE_Fall2021.Class_11;
 
+import java.util.Scanner;
+
 public class UseCircle {
     public static void main(String[] args) {
 
-        Circle c = new Circle(10, "blue", true);
+        Scanner s = new Scanner(System.in);
+        int ra = s.nextInt();
+
+        Circle c = new Circle(ra, "blue", true);
         System.out.println(c.getArea());
 
         c.setRadius(20);

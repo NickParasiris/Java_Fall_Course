@@ -8,7 +8,7 @@ public class Menu_Example {
         Scanner s = new Scanner(System.in);
 
         String response;
-        String response2 = null;
+        String response2;
 
         String mainMenusText = "Main Menu\n" +
                 "A) Square a number\n" +
