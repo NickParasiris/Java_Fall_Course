@@ -23,7 +23,7 @@ public class SalaryEmployee extends Employee{
     @Override
     public BigDecimal calculatePay()
     {
-        BigDecimal monthlyPay = this.yearlyPay.divide(new BigDecimal("12"));
+        BigDecimal monthlyPay = this.yearlyPay.divide(new BigDecimal("12"), RoundingMode.CEILING);
 
         determineOnlinePay(monthlyPay);
 
