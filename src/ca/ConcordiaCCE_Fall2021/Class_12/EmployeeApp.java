@@ -21,7 +21,9 @@ public class EmployeeApp {
         employeeList.add(ce1);
         employeeList.add(he1);
 
-       BigDecimal totalPay = new BigDecimal("0.00");
+        he1.signIN();
+
+        BigDecimal totalPay = new BigDecimal("0.00");
 
         for (Employee e : employeeList)
         {

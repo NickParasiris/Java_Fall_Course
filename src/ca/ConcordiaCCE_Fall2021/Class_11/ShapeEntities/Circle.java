@@ -20,4 +20,11 @@ public class Circle extends Shape{
     public double getArea(){
         return Math.pow(Math.PI * this.radius, 2);
     }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                '}' + super.toString();
+    }
 }

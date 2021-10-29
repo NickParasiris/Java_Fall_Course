@@ -10,5 +10,7 @@ public class ShapeApplication {
         Circle c = new Circle("Bob", "Red", 7);
 
         Rectangle r = new Rectangle("Robert", "Blue", 8, 4);
+
+        System.out.println(c);
     }
 }

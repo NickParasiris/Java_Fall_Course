@@ -2,9 +2,11 @@ package ca.ConcordiaCCE_Fall2021.Class_12.Entities;
 
 import java.math.BigDecimal;
 
-public class HourlyEmployee extends Employee{
+public class HourlyEmployee extends Employee implements IAttendance {
 
     private BigDecimal hourlyRate;
+
+    private boolean signedIn = false;
 
     public HourlyEmployee(int id, String name, BigDecimal hourlyRate) {
         super(id, name);
@@ -27,5 +29,22 @@ public class HourlyEmployee extends Employee{
         determineOnlinePay(monthlyPay);
 
         return monthlyPay;
+    }
+
+    @Override
+    public void signIN() {
+        System.out.println("The employee has signed in...");
+        this.signedIn = true;
+    }
+
+    @Override
+    public void signOut() {
+        System.out.println("The employee has signed out...");
+        this.signedIn = false;
+    }
+
+    @Override
+    public boolean isSignedIn() {
+        return false;
     }
 }
