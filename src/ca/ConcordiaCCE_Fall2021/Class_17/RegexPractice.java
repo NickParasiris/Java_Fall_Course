@@ -26,12 +26,15 @@ public class RegexPractice {
         verifications.add(".*[A-Z].*");
         verifications.add(".*\\d.*");
         verifications.add(".*[\\*\\!\\^\\$\\@].*");
-        verifications.add("^.{3,10}");
+        verifications.add("^.{3,10}$");
 
         for (String x : verifications)
         {
             if(!newPass.matches(x))
+            {
                 securePassword = false;
+                break;
+            }
         }
 
 
